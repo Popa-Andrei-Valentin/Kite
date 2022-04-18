@@ -1,0 +1,38 @@
+.nav-container {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container h1 {
+  padding-left: 1rem;
+  font-size: 3rem;
+}
+
+.nav-container a {
+  padding-right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav-container .nav-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-container .nav-right .btn {
+  margin-right: 1rem;
+  margin-bottom: 0.3rem;
+  padding: 0.3rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 0.9rem;
+  border: none;
+  background-color: rgb(68, 68, 253);
+  cursor: pointer;
+  color: white;
+}

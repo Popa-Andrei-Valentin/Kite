@@ -1,0 +1,13 @@
+/* //// Leaflet Style //// */
+.leaflet-container {
+  width: 90vw;
+  height: 60vh;
+  z-index: 0;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* //// Navigation Style //// */
